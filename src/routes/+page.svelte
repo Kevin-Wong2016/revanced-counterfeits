@@ -131,7 +131,7 @@
 			<h2>Known fake domains</h2>
 			<p>These domains were used by scammers but are now owned by the ReVanced team (<span class="bad domain-tag">{ReVanced.net}</span><span class="bad domain-tag">{ReVanced.dev}</span>):</p>
 			<div class="domain-grid">
-				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io', 'rvx.to','rvxapp.com'. ] as domain, i}
+				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io', 'rvx.to','rvxapp.com', 'revancedextended.cc', 'youtubevanced.com', 'vancedyoutube.org', 'vancedmanager.com' 'vanced.me'] as domain, i}
 					<span class="bad domain-tag">{domain}</span>
 				{/each}
 			</div>
