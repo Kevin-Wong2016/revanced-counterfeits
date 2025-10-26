@@ -88,7 +88,7 @@
 				<li>
 					<strong>Change passwords</strong> for accounts you used while the fake app was installed
 				</li>
-				<li><strong>Run security scan</strong> on your device</li>
+				<li><strong>Run a security scan</strong> on your device</li>
 				<li>
 					<strong>Get the real version</strong> from
 					<a href={websiteUrl}><span class="good">revanced.app</span></a>
@@ -131,7 +131,7 @@
 			<h2>Known fake domains</h2>
 			<p>These domains were used by scammers but are now owned by the ReVanced team (<span class="bad domain-tag">{ReVanced.net}</span><span class="bad domain-tag">{ReVanced.dev}</span>):</p>
 			<div class="domain-grid">
-				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io', 'rvx.to','rvxapp.com', 'revancedextended.cc', 'youtubevanced.com', 'vancedyoutube.org', 'vancedmanager.com' 'vanced.me'] as domain, i}
+				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io', 'rvx.to','rvxapp.com', 'revancedextended.cc', 'youtubevanced.com', 'vancedyoutube.org', 'vancedmanager.com' 'vanced.me', 'revancedyoutube.app','revanced.tools', 'youtubevanced.tools', 'youtubevanced.su', 'vanceddownload.com', 'revanced.org', 'revanceds.com'] as domain, i}
 					<span class="bad domain-tag">{domain}</span>
 				{/each}
 			</div>
