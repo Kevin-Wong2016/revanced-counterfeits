@@ -101,7 +101,7 @@
 			<p>
 				Some counterfeiters created fake ReVanced websites to impersonate <span class="good"
 					><a href={websiteUrl}>ReVanced</a></span
-				>, which has now legally acquired these domains and now redirects them here to warn users
+				>, which has now legally acquired some of these domains and now redirects them here to warn users
 				like you.
 			</p>
 			<p class="highlight">
@@ -129,9 +129,9 @@
 
 		<section>
 			<h2>Known fake domains</h2>
-			<p>These domains were used by scammers (now redirecting here):</p>
+			<p>These domains were used by scammers but are now owned by the ReVanced team (<span class="bad domain-tag">{ReVanced.net}</span><span class="bad domain-tag">{ReVanced.dev}</span>):</p>
 			<div class="domain-grid">
-				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io'] as domain, i}
+				{#each ['vanced.to', 'revanced.net', 'revanced.dev', 'revanced.to', 'revancedextended.com', 'revancedextended.io', 'revancedapp.download', 'revancedapps.com', 'revancedapk.org', 'revancedapp.io', 'revancedapk.net', 'vanced.io', 'rvx.to','rvxapp.com'. ] as domain, i}
 					<span class="bad domain-tag">{domain}</span>
 				{/each}
 			</div>
