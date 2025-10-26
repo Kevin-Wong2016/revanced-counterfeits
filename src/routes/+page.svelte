@@ -45,7 +45,7 @@
 
 <Embed
 	title="ReVanced - Counterfeit notice"
-	description="You may be a victim of ReVanced counterfeit. Learn more about it here."
+	description="You may be a victim of ReVanced counterfeits. Learn more about it here."
 	{websiteUrl}
 	image={`${websiteUrl}/logo.png`}
 	themeColor="#9FD5FF"
